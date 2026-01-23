@@ -7,7 +7,6 @@ class Addition {
         int sum = 0;
 
         System.out.println("Enter 10 numbers:");
-
         for (int i = 1; i <= 10; i++) {
             System.out.print("Number " + i + ": ");
             sum = sum + sc.nextInt();
